@@ -8,21 +8,19 @@ Install instructions
 =============
 just place a copy of the ZoomR8Control.sc in your SuperCollider extensions folder:
 
-	**User-specific**
-		*OSX :* ~/Library/Application Support/SuperCollider/Extensions/
-		*Linux :* ~/share/SuperCollider/Extensions/
+**User-specific**
+*OSX :* ~/Library/Application Support/SuperCollider/Extensions/
+*Linux :* ~/share/SuperCollider/Extensions/
+```
+Platform.userExtensionDir
+```
 
-		```
-		Platform.userExtensionDir
-		```
-
-	**System-wide (apply to all users)**
-		*OSX :* /Library/Application Support/SuperCollider/Extensions/
-		*Linux :* /usr/local/share/SuperCollider/Extensions/
-
-		```
-		Platform.systemExtensionDir
-		```
+**System-wide (apply to all users)**
+*OSX :* /Library/Application Support/SuperCollider/Extensions/
+*Linux :* /usr/local/share/SuperCollider/Extensions/
+```
+Platform.systemExtensionDir
+```
 
 Usage instructions
 =============
@@ -66,9 +64,10 @@ Controller names
 ----------------
 ###the faders (send pitchbend values between 0 and 16383)###
 * `fader1..9`
+
 ###the buttons above the faders (send note on & noteoff events, 0 on release and 127 on press)###
 * `faderBt1..8` (the master button does not work)
-* `fBut1..9`
+* `fBut1..5`
 
 ###transport buttons###
 
