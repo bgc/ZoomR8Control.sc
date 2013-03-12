@@ -9,15 +9,21 @@ Install instructions
 just place a copy of the ZoomR8Control.sc in your SuperCollider extensions folder:
 
 **User-specific**
+
 *OSX :* ~/Library/Application Support/SuperCollider/Extensions/
+
 *Linux :* ~/share/SuperCollider/Extensions/
+
 ```
 Platform.userExtensionDir
 ```
 
 **System-wide (apply to all users)**
+
 *OSX :* /Library/Application Support/SuperCollider/Extensions/
+
 *Linux :* /usr/local/share/SuperCollider/Extensions/
+
 ```
 Platform.systemExtensionDir
 ```
